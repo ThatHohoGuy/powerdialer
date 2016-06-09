@@ -8,8 +8,8 @@
 # Short-Description: Start daemon at boot time
 # Description:       Enable service provided by daemon.
 ### END INIT INFO
-
-dir="usr/local/bin"
+export DISPLAY:0.0
+dir="/usr/local/bin/"
 cmd="java -jar "CiscoJTAPIDialerInterface.jar.01132015""
 user="root"
 
